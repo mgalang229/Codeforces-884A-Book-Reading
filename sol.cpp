@@ -13,7 +13,7 @@ int main() {
   }                         
   int cnt = 0;
   for (int i = 0; i < n; i++) {
-  	// while the time required to read is > 0
+  	// check if the time required to read is > 0 (seconds)
   	// available time for each day = 86400 - a[i] (for all 'i')
   	// keep subtracting the available time for each day
   	// increment the counter for each day passed
